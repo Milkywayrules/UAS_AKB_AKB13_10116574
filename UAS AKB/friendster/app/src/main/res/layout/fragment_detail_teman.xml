@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailTemanFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detail"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/nimD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="NIM"/>
+
+            <EditText
+                android:id="@+id/namaD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama"
+                android:inputType="textPersonName"/>
+            <EditText
+                android:id="@+id/kelasD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kelas"
+                android:inputType="text"/>
+
+            <EditText
+                android:id="@+id/emailD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+            <EditText
+                android:id="@+id/noHpD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No HP"
+                android:inputType="phone"/>
+
+            <EditText
+                android:id="@+id/instgaramD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Instgaram"
+                android:inputType="textPersonName" />
+            <Button
+                android:id="@+id/btnUbahD"
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubah"/>
+
+            <Button
+                android:id="@+id/btnHapusD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Hapus" />
+            <Button
+                android:id="@+id/btnKembaliD"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Kembali" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
